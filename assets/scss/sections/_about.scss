@@ -161,6 +161,33 @@
                 }
             }
         }
+        & .luxivo-customer-box{
+            position: absolute;
+            left: 35px;
+            bottom: 60px;
+            max-width: 190px;
+            width: 100%;
+            padding: 23px 30px;
+            border-radius: 30px;
+            display: inline-block;
+            background-color: $primary-color;
+            @include respond(md){
+                position: relative;
+                left: auto;
+                bottom: auto;
+                max-width: 100%;
+                margin: 40px 0;
+            }
+            & .content{
+                & h3{
+                    color: $white-color;
+                    font-size: 30px;
+                }
+                & p{
+                    color: $white-color;
+                }
+            }
+        }
         & .luxivo-experiece-box{
             position: absolute;
             top: 130px;
