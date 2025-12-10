@@ -2740,6 +2740,9 @@ label {
 .luxivo-about_three {
   background-color: var(--gray-color);
 }
+.luxivo-about_three .about-image-box img {
+  border-radius: 30px !important;
+}
 .luxivo-about_three .luxivo-content-wrapper {
   margin-left: -150px;
   display: -webkit-box;
