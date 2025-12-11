@@ -489,7 +489,7 @@ label {
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  z-index: 9999999;
+  z-index: 99999;
   color: var(--white-color);
   background-color: var(--primary-color);
 }
@@ -4956,8 +4956,8 @@ label {
 }
 .luxivo-faq_two .luxivo-image .luxivo-contact-info-box {
   position: absolute;
-  bottom: 30px;
-  right: 30px;
+  bottom: -40px;
+  left: -40px;
   background-color: var(--primary-black-color);
   border-radius: 30px;
   padding: 35px 40px;
